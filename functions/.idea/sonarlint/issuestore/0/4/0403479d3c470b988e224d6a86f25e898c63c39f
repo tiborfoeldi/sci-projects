@@ -1,3 +1,5 @@
 
-Ysquid:S1854">Remove this useless assignment to local variable "calculator".(ïÚ­8¤’”ÛÏ,
-Jsquid:S1481"/Remove this unused "calculator" local variable.(ïÚ­8¤’”ÛÏ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã³ˆ¤øÿÿÿÿ8Ñ¸†„Ø,
+[squid:S1854	">Remove this useless assignment to local variable "calculator".(ïÚ­8Ñ¸†„Ø,
+Lsquid:S1481	"/Remove this unused "calculator" local variable.(ïÚ­8Ñ¸†„Ø,

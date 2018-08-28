@@ -7,7 +7,6 @@ public class Main {
         System.out.println("salutare");
 
         Calculator calculator = new Calculator();
-        System.out.println("suma: " + calculator.aduna(3,4));
-        System.out.println("fibonacci: " + calculator.fibonacci(10));
+
     }
 }
