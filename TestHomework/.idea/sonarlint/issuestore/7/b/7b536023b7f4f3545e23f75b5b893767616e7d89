@@ -1,2 +1,4 @@
 
-`squid:S2094"BRemove this empty class, write its code or make it an "interface".(¬ÀÅ8 ‹èÛ,
+:squid:S1643 "Use a StringBuilder instead.(­âç„8’–†ÿÚ,
+…squid:S1488"gImmediately return this expression instead of assigning it to the temporary variable "splitedSentance".(¡Ç˜±8’–†ÿÚ,
+?squid:S1643"Use a StringBuilder instead.(‰®ãºúÿÿÿÿ8´úñçÛ,
