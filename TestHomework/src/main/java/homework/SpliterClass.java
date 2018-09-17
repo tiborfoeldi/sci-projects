@@ -6,6 +6,7 @@ import java.util.Map;
 public class SpliterClass {
 
     Map<String, String> list = new HashMap<String, String>();
+    public final int STAITIC = 112;
 
     public String[] sentenceSpitter(String sentance) {
         String[] splitedSentance = sentance.toLowerCase().split(" ");
@@ -34,7 +35,6 @@ public class SpliterClass {
         }
         return sentance;
     }
-
 
 }
 

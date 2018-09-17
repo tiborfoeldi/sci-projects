@@ -1,4 +1,7 @@
 
-:squid:S1643 "Use a StringBuilder instead.(­âç„8’–†ÿÚ,
-…squid:S1488"gImmediately return this expression instead of assigning it to the temporary variable "splitedSentance".(¡Ç˜±8’–†ÿÚ,
-?squid:S1643"Use a StringBuilder instead.(‰®ãºúÿÿÿÿ8´úñçÛ,
+:squid:S1643!"Use a StringBuilder instead.(­âç„8²„ŒéÛ,
+Dsquid:S1170	"!Make this final field static too.(Ëþºèøÿÿÿÿ8ÒÝšêÛ,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸±ô¤ýÿÿÿÿ8²„ŒéÛ,
+vsquid:S00116	"RRename this field "STAITIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëþºèøÿÿÿÿ8ÒÝšêÛ,
+?squid:S1643"Use a StringBuilder instead.(‰®ãºúÿÿÿÿ8²„ŒéÛ,
+…squid:S1488"gImmediately return this expression instead of assigning it to the temporary variable "splitedSentance".(¡Ç˜±8²„ŒéÛ,
