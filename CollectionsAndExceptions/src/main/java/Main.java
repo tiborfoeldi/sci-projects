@@ -7,22 +7,22 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException, ParseException {
-//        Company has employees.
+//        Company has allEmployees.
 //
 //        Some people have parking spaces allocated to them. Other's don't.
 //
 //
 //
-//        Write Company Management System that as an input receives a list of employees.
+//        Write Company Management System that as an input receives a list of allEmployees.
 //
-//        The Company Management System must allow a way to obtain a list of employees who don't have any parking spaces.
+//        The Company Management System must allow a way to obtain a list of allEmployees who don't have any parking spaces.
 //        This list should be ordered based on the employee's seniority in the company.
 //
-//        Employee's seniority is defined by the years spent in the company - Not the role.
+//        AllEmployees's seniority is defined by the years spent in the company - Not the role.
 //
 //
 //
-//        Internally the company keeps the employees in role-specific lists.
+//        Internally the company keeps the allEmployees in role-specific lists.
 //
 //        All managers will be in a managers collection, all junior software engineers will be in the junior software engineers collection.
 //
@@ -37,21 +37,17 @@ public class Main {
 //        - one List
 //        - one Sorting
 
-        File file = new File("employees.csv");
+        File file = new File("Employees.csv");
         Path path =file.toPath();
-//        List<String> strings = Files.readAllLines(path);
-//        System.out.println(strings);
-
 
         FileReader fr = new FileReader(file);
-        List<Employee> employees = new EmployeeReader(fr).getEmployee();
-//        System.out.println(employees);
+        List<AllEmployees> allEmployees = new EmployeeReader(fr).getEmployee();
 
         TheListsOfEmployees lists = new TheListsOfEmployees();
-        for (Employee e : employees){
+        for (AllEmployees e : allEmployees){
             lists.addEmployee(e);
         }
 
-        System.out.println(lists.getBusinessAnalysts());
+        System.out.println(lists.getAllEmployees());
     }
 }
