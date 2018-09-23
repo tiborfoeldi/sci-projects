@@ -1,2 +1,7 @@
 
-`squid:S2094"BRemove this empty class, write its code or make it an "interface".(¬ÀÅ8 ‹èÛ,
+:squid:S1643!"Use a StringBuilder instead.(­âç„8²„ŒéÛ,
+Dsquid:S1170	"!Make this final field static too.(Ëşºèøÿÿÿÿ8ÒİšêÛ,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸±ô¤ıÿÿÿÿ8²„ŒéÛ,
+vsquid:S00116	"RRename this field "STAITIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëşºèøÿÿÿÿ8ÒİšêÛ,
+?squid:S1643"Use a StringBuilder instead.(‰®ãºúÿÿÿÿ8²„ŒéÛ,
+…squid:S1488"gImmediately return this expression instead of assigning it to the temporary variable "splitedSentance".(¡Ç˜±8²„ŒéÛ,
